@@ -1,4 +1,4 @@
-/* -------- GLOBAL -------- */
+/* GLOBAL */
 
 body {
   background: #f5f3ef;
@@ -32,7 +32,7 @@ h3 {
 }
 
 
-/* -------- NAVBAR -------- */
+/* NAVBAR */
 
 .navbar {
   position: sticky;
@@ -56,6 +56,11 @@ h3 {
   font-weight: 600;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .nav-container nav a {
   margin-left: 18px;
   text-decoration: none;
@@ -68,7 +73,7 @@ h3 {
 }
 
 
-/* -------- HERO -------- */
+/* HERO */
 
 .hero {
   padding: 140px 20px 80px;
@@ -110,7 +115,7 @@ a:hover {
 }
 
 
-/* -------- PROJECT BLOCKS -------- */
+/* PROJECT BLOCKS */
 
 .project {
   margin-top: 28px;
@@ -118,8 +123,17 @@ a:hover {
   border-bottom: 1px solid #ddd;
 }
 
+.projects-redirect {
+  margin-top: 25px;
+}
 
-/* -------- HOBBIES -------- */
+.projects-redirect a {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+
+/* HOBBIES */
 
 .hobby-list {
   list-style: none;
@@ -145,7 +159,7 @@ a:hover {
 }
 
 
-/* -------- CONTACT -------- */
+/* CONTACT */
 
 .contact-links a {
   color: #2d4a6b;
@@ -153,7 +167,7 @@ a:hover {
 }
 
 
-/* -------- MOBILE -------- */
+/* MOBILE */
 
 @media (max-width: 768px) {
 
