@@ -1,10 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Projects</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Lakshya Lalwani</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <h1>Projects</h1>
-  <p>Coming soon.</p>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+
+      <!-- Clickable Name → Home -->
+      <a href="index.html" class="logo-link">
+        <span class="logo">Lakshya Lalwani</span>
+      </a>
+
+      <nav>
+        <a href="index.html#work">Work</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#competitions">Competitions</a>
+        <a href="index.html#hobbies">Outside the Lab</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- PAGE HERO -->
+  <section class="hero projects-hero">
+    <h1>Completed Projects</h1>
+    <p class="projects-subtext">
+      Systems and robots I have designed, built, and successfully completed.
+    </p>
+  </section>
+
+
+  <!-- PROJECT CONTENT -->
+  <section class="content">
+
+    <!-- BALLERINA -->
+    <div class="project-detailed">
+
+      <h3>Ballerina Cappucina</h3>
+
+      <p>
+        Ballerina Cappucina is an omnidirectional autonomous robot designed
+        to navigate freely across a defined arena while detecting and
+        collecting colored objects.
+      </p>
+
+      <p>
+        I led the mechanical design and implementation of the robot’s
+        omnidirectional drive system, including chassis design, motor
+        selection, and drivetrain integration to achieve smooth
+        multi-directional movement without requiring chassis reorientation.
+        The mechanical structure was designed to ensure stability,
+        maneuverability, and reliable object collection.
+      </p>
+
+      <p>
+        On the perception side, I contributed to the development of a vision
+        pipeline using OpenCV for detecting and identifying colored objects
+        in real time. I was also involved in overall system integration,
+        assisting with software development and testing to ensure seamless
+        interaction between motion, perception, and object collection modules.
+      </p>
+
+      <p>
+        <a href="https://github.com/Lakshyaa1/Ballerina-Cappucina" target="_blank">
+          View Project on GitHub →
+        </a>
+      </p>
+
+    </div>
+
+
+    <!-- WALL-E -->
+    <div class="project-detailed">
+
+      <h3>Wall-E Robot Platform</h3>
+
+      <p>
+        Wall-E is a two-wheeled self-balancing and line-following robot
+        platform developed within SRA-VJTI to demonstrate embedded robotics
+        and control system concepts.
+      </p>
+
+      <p>
+        I worked extensively on hardware assembly and integration of the
+        robot using an ESP32-based SRA development board. I implemented and
+        tuned PID control algorithms to achieve stable self-balancing
+        behaviour and reliable line-following performance using real-time
+        sensor feedback.
+      </p>
+
+      <p>
+        Beyond development, I played an active role in mentoring and
+        teaching. I conducted robotics workshops alongside my peers,
+        guiding students through the hardware assembly process, explaining
+        firmware structure, and helping them understand control system
+        implementation.
+      </p>
+
+      <p>
+        <a href="https://github.com/SRA-VJTI/Wall-E" target="_blank">
+          View Project on GitHub →
+        </a>
+      </p>
+
+    </div>
+
+  </section>
+
 </body>
 </html>
