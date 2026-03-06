@@ -4,28 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lakshya Lalwani</title>
-  <a href="https://sravjti.in/webring/redirect.html?site=lakshyaa1.github.io" title="SRA Webring">
-    <img src="https://sravjti.in/webring/khopdi.svg" alt="SRA Webring" style="width:48px;height:48px;">
-  </a>
+  <title>Lakshya Lalwani — Engineer, Builder, Maker</title>
+  <meta name="description" content="Lakshya Lalwani — Electronics & Telecom student at VJTI, Mumbai. Building robots, SDRs, and systems at the intersection of hardware and software.">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- WEBRING BADGE -->
+  <a href="https://sravjti.in/webring/redirect.html?site=lakshyaa1.github.io" title="SRA Webring" class="webring-badge">
+    <img src="https://sravjti.in/webring/khopdi.svg" alt="SRA Webring">
+  </a>
+
   <!-- NAVBAR -->
-  <header class="navbar">
+  <header class="navbar" id="navbar">
     <div class="nav-container">
 
       <a href="index.html" class="logo-link">
-        <span class="logo">Lakshya Lalwani</span>
+        <span class="logo">LL</span>
       </a>
 
-      <nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="nav-menu">
         <a href="#work">Work</a>
         <a href="projects.html">Projects</a>
         <a href="#competitions">Competitions</a>
@@ -47,23 +55,39 @@
 
       <div class="hero-text">
 
+        <div class="status-badge">Open to opportunities</div>
+
         <h1>Lakshya Lalwani</h1>
-        <h2>always building.</h2>
+        <p class="tagline">always building.</p>
 
         <p class="intro">
-          I’m Lakshya, an Electronics & Telecommunication engineering student at
-          VJTI, Mumbai, passionate about building systems at the intersection of
-          hardware and software.
-          <br><br>
-          I am also a second-year core member of
+          Electronics &amp; Telecommunication engineering student at
+          <strong>VJTI, Mumbai</strong>, passionate about building systems at the
+          intersection of hardware and software.
+        </p>
+
+        <p class="intro">
+          Second-year core member of
           <a href="https://sravjti.in/" target="_blank">SRA, VJTI</a>.
-          <br><br>
-          I like making robots — hopefully ones that move later on :) Other than that,
-          I love learning about wireless communication and the electronics that support it.
-          <br><br>
-          I usually learn by experimenting, building things, breaking them, and improving
+          I make robots, explore wireless communication, and learn by
+          experimenting — building things, breaking them, and improving
           them step by step.
         </p>
+
+        <div class="hero-links">
+          <a href="https://github.com/Lakshyaa1" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/lakshya-lalwani-32a35b259/" target="_blank">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:lakshyalalwani2000@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email
+          </a>
+        </div>
 
       </div>
     </div>
@@ -73,26 +97,35 @@
   <!-- ONGOING WORK -->
   <section class="content" id="work">
 
+    <span class="section-label">Currently Working On</span>
     <h2>Ongoing Work</h2>
 
-    <div class="project">
-      <h3>UWB-Based Ranging & Localization</h3>
-      <p>
-        Exploring ultra-wideband technology for accurate distance measurement
-        and localization using time-based ranging techniques.
-      </p>
+    <div class="work-grid stagger-children fade-in">
+
+      <div class="work-card">
+        <span class="card-icon">📡</span>
+        <h3>UWB-Based Ranging &amp; Localization</h3>
+        <p>
+          Exploring ultra-wideband technology for accurate distance measurement
+          and localization using time-based ranging techniques.
+        </p>
+        <span class="tag">Wireless</span>
+      </div>
+
+      <div class="work-card">
+        <span class="card-icon">🔧</span>
+        <h3>FPGA-Based Software Defined Radio</h3>
+        <p>
+          Implementing SDR building blocks on FPGA to understand digital
+          communication systems from the hardware level upward.
+        </p>
+        <span class="tag">FPGA · SDR</span>
+      </div>
+
     </div>
 
-    <div class="project">
-      <h3>FPGA-Based Software Defined Radio</h3>
-      <p>
-        Implementing SDR building blocks on FPGA to understand digital
-        communication systems from the hardware level upward.
-      </p>
-    </div>
-
-    <div class="projects-redirect">
-      <a href="projects.html">→ View Completed Projects</a>
+    <div class="projects-redirect fade-in">
+      <a href="projects.html">View Completed Projects →</a>
     </div>
 
   </section>
@@ -101,33 +134,34 @@
   <!-- COMPETITIONS -->
   <section class="content" id="competitions">
 
-    <h2>Competitions</h2>
+    <span class="section-label">Competitions</span>
+    <h2>Hackathons &amp; Challenges</h2>
 
-   <div class="project sih-container">
+    <div class="competition-card fade-in">
 
-  <div class="sih-text">
-    <h3>Smart India Hackathon – 2025</h3>
-    <p><em>Vishakapatnam, India</em></p>
+      <div class="competition-text">
+        <h3>Smart India Hackathon — 2025</h3>
+        <p class="location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Vishakapatnam, India
+        </p>
 
-    <p>
-      <strong>Anti Drone System:</strong> Designed and developed an
-      anti-drone detection system using HackRF to analyze radio
-      frequency signals and identify drone communication activity.
-    </p>
+        <p>
+          <strong>Anti Drone System</strong> — Designed and developed an
+          anti-drone detection system using HackRF to analyze radio
+          frequency signals and identify drone communication activity.
+        </p>
 
-    <p>
-      <a href="https://github.com/Lakshyaa1/anti_drone" target="_blank">
-        View Project on GitHub →
-      </a>
-    </p>
-  </div>
+        <a href="https://github.com/Lakshyaa1/anti_drone" target="_blank" class="github-link">
+          View on GitHub →
+        </a>
+      </div>
 
-  <div class="sih-image">
-    <img src="images/sih.jpg" alt="Smart India Hackathon">
-  </div>
+      <div class="competition-image">
+        <img src="images/sih.jpg" alt="Smart India Hackathon team photo">
+      </div>
 
-</div>
-
+    </div>
 
   </section>
 
@@ -135,21 +169,27 @@
   <!-- HOBBIES -->
   <section class="content" id="hobbies">
 
+    <span class="section-label">Life Outside Code</span>
     <h2>Outside the Lab</h2>
 
-    <ul class="hobby-list">
-      <li>
-        Running keeps me sane, currently a half marathoner, hoping to become an ironman one day!
-      </li>
+    <div class="hobby-grid stagger-children fade-in">
 
-      <li>
-        Love Punjabi music — Diljit all the way!
-      </li>
+      <div class="hobby-card">
+        <span class="hobby-emoji">🏃</span>
+        <p>Half marathoner on a mission to become an Ironman one day.</p>
+      </div>
 
-      <li>
-        Deeply fascinated by how humans learned to send voices, data, and ideas through invisible waves across the world.
-      </li>
-    </ul>
+      <div class="hobby-card">
+        <span class="hobby-emoji">🎵</span>
+        <p>Punjabi music enthusiast — Diljit all the way!</p>
+      </div>
+
+      <div class="hobby-card">
+        <span class="hobby-emoji">📻</span>
+        <p>Fascinated by how humans send voices, data, and ideas through invisible waves.</p>
+      </div>
+
+    </div>
 
   </section>
 
@@ -157,15 +197,65 @@
   <!-- CONTACT -->
   <section class="content" id="contact">
 
-    <h2>Contact</h2>
+    <span class="section-label">Get in Touch</span>
+    <h2>Let's Connect</h2>
+    <p class="contact-subtitle">Have an idea, a project, or just want to say hi?</p>
 
-    <p class="contact-links">
-      <a href="mailto:lakshyalalwani2000@gmail.com">Email</a> ·
-      <a href="https://github.com/Lakshyaa1" target="_blank">GitHub</a> ·
-      <a href="https://www.linkedin.com/in/lakshya-lalwani-32a35b259/" target="_blank">LinkedIn</a>
-    </p>
+    <div class="contact-grid">
+      <a href="mailto:lakshyalalwani2000@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Email
+      </a>
+      <a href="https://github.com/Lakshyaa1" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/lakshya-lalwani-32a35b259/" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+    </div>
 
   </section>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>Built with <span>&hearts;</span> by Lakshya Lalwani</p>
+  </footer>
+
+
+  <!-- SCRIPTS -->
+  <script>
+    // Navbar scroll shadow
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // Hamburger menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('open');
+    });
+
+    // Close menu on link click
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navMenu.classList.remove('open'));
+    });
+
+    // Scroll reveal animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
 
 </body>
 </html>
